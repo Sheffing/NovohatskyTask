@@ -1,0 +1,157 @@
+.serviceRequest{
+    width: 1920px;
+    height: 900px;
+    background-color: #121212;;
+    margin-top: 150px;
+}
+
+.serviceReqCenter{
+    width: 1560px;
+    height: 900px;
+    margin: 0 auto;
+}
+
+.serviceReqMain{
+    width: 1560px;
+    height: 622px;
+    display: flex;
+}
+
+.serviceReqLeft{
+    width: 733px;
+    height: 609px;
+}
+
+.imgLeft{
+    width: 733px;
+    height: 609px; 
+}
+
+.serviceReqRight{
+    width: 510px;
+    height: 622px;
+    margin-left: 108px;
+}
+
+#serviceH{
+    font-family: AkzidenzGroteskPro-extended;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 110%;
+    /* or 66px */
+
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.serviceFlex{
+    display: flex;
+    margin-top: 90px;
+}
+
+.name{
+    width: 200px;
+    height: 50px;
+    background-color: #121212;
+    border-bottom: 1px solid rgba(142, 142, 142, 0.5);;
+    border-top:none ;
+    border-right: none;
+    border-left:none ;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 110%;
+    /* or 26px */
+
+
+    color: #8E8E8E;
+}
+
+.numb{
+    margin-left: 60px;
+    width: 250px;
+    height: 50px;
+    background-color: #121212;
+    border-bottom: 1px solid rgba(142, 142, 142, 0.5);;
+    border-top:none ;
+    border-right: none;
+    border-left:none ;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 110%;
+    /* or 26px */
+
+
+    color: #8E8E8E;
+}
+
+.model{
+    margin-top: 56px;
+    width: 510px;
+    height: 50px;
+    background-color: #121212;
+    border-bottom: 1px solid rgba(142, 142, 142, 0.5);;
+    border-top:none ;
+    border-right: none;
+    border-left:none ;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 110%;
+    /* or 26px */
+
+
+    color: #8E8E8E;
+}
+
+.comment{
+    margin-top: 56px;
+    width: 510px;
+    height: 50px;
+    background-color: #121212;
+    border-bottom: 1px solid rgba(142, 142, 142, 0.5);;
+    border-top:none ;
+    border-right: none;
+    border-left:none ;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 110%;
+    /* or 26px */
+
+
+    color: #8E8E8E;
+}
+
+.send{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    padding: 16px 32px;
+    width: 224.27px;
+    height: 58px;
+    background: #9545E4;
+    border: none;
+    font-family:   AkzidenzGroteskPro-extended;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 110%;
+    /* or 26px */
+
+
+    color: #121212;
+}
+

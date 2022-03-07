@@ -1,0 +1,114 @@
+body{
+    margin: 0 auto;
+    padding: 0 auto
+}
+
+.footerPage{
+    width: 1920px;
+    height: 530px;
+    /* margin-top: 10px; */
+    background-color: #121212;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1560px;
+    height: 530px;
+    padding-top: 20px;
+    border-top: 2px solid #FFFFFF;;
+} 
+
+.footerDiv2{
+    display: flex;
+    flex-direction: column;
+}
+
+.footerList{
+    text-decoration: none;
+    font-family: AkzidenzGroteskPro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 120%;
+    margin-bottom: 10px;
+    /* identical to box height, or 24px */
+
+
+    color: #8E8E8E;
+}
+
+#footerH{
+    
+    font-family: AkzidenzGroteskPro;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    /* identical to box height, or 24px */
+
+
+    color: #FFFFFF;
+}
+
+#numberFooter{
+    font-family: AkzidenzGroteskPro-extended;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+    /* identical to box height, or 29px */
+    color: #FFFFFF;
+}
+
+#footerP{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 110%;
+    /* or 15px */
+
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: #8E8E8E;
+}
+
+#footerHr{
+    width: 1560px;
+    height: 0px;
+    border: 2px solid #FFFFFF;
+}
+
+.footerDiv2{
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+
+/* h1{
+    margin: 0;
+    padding: 0;
+} */
+
+.footerDiv3{
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px;
+}
+
+.footerLinks{
+    display: flex;
+    flex-direction: column;
+}
+
+.footerDivison{
+    display: flex;
+}
+
+.footerYoutube{
+    margin-left: 10px;
+}
+

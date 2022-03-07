@@ -1,0 +1,71 @@
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.servises{
+    width: 1920px;
+    background-color: #121212;
+    height: 1080px;
+}
+
+.center{
+    margin: 0 auto;
+    width: 1560px;
+    height: 1080px;
+    
+}
+
+.headerServises{
+    display: flex;
+    align-items: center;
+    width: 1560px;
+    height: 268px;
+}
+
+#h2Servises{
+    margin: 0;
+    padding: 0;
+    font-family: "AkzidenzGroteskPro";
+    font-style: normal;
+     font-weight: 500px;
+    font-size: 80px;
+    line-height: 110%;
+    /* identical to box height, or 88px */
+
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.choiceList{
+    margin-left: 720px;
+    width: 840px;
+    height: 820px;
+}
+
+.choice{
+    display: flex;
+}
+
+#h3Servises{
+    margin-left: 50px;
+    font-family: "AkzidenzGroteskPro-extended";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 110%;
+    /* identical to box height, or 44px */
+
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+
+}
+
+#hrServises{
+    width: 840px;
+    height: 0px;
+    border: 1px solid #8E8E8E;
+}

@@ -1,0 +1,134 @@
+body{
+    margin: 0 ;
+    padding: 0 ;
+
+  
+}
+
+.servises{
+    width: 1920px;
+    background-color: #121212;
+    height: 1080px;
+}
+
+.center{
+    margin: 0 auto;
+    width: 1560px;
+    height: 1000px;
+    display: flex;
+}
+
+.headerServises{
+    display: flex;
+    align-items: center;
+    width: 1560px;
+    height: 150px;
+}
+
+#h2Servises{
+    margin: 0;
+    padding: 0;
+    font-family: "AkzidenzGroteskPro";
+    font-style: normal;
+     font-weight: 500px;
+    font-size: 80px;
+    line-height: 110%;
+    /* identical to box height, or 88px */
+
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.choiceList{
+
+    width: 840px;
+    height: 820px;
+    margin-top: 275px;
+}
+
+.choice{
+    display: flex;
+}
+
+#h3Servises{
+    margin-left: 50px;
+    font-family: "AkzidenzGroteskPro-extended";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 110%;
+    /* identical to box height, or 44px */
+
+    letter-spacing: 0.02em;
+
+    color: #FFFFFF;
+
+}
+
+#hrServises{
+    margin: 0;
+    width: 840px;
+    height: 0px;
+    border: 1px solid #8E8E8E;
+}
+
+@media screen and (max-width: 1440px){
+.servises{
+    height: 850px;
+    width: 1110px;
+}
+.headerServises{
+    height: 10px;
+}
+#h2Servises{
+font-style: normal;
+font-weight: 500;
+font-size: 56px;
+line-height: 110%;
+/* identical to box height, or 62px */
+
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.center{
+    width: 1110px;
+    height: 720px;
+    margin: 0 ;
+}
+.servise__images{
+    width: 56px;
+height: 35px;
+padding: 40px;
+padding-left: 0;
+}
+.choiceList{
+    width: 635px;
+height: 575px;
+margin-top: 130px;
+
+}
+#h3Servises{
+    font-style: normal;
+font-weight: normal;
+font-size: 32px;
+line-height: 110%;
+/* or 35px */
+height: 35px;
+letter-spacing: 0.02em;
+margin: 0;
+padding: 40px;
+color: #FFFFFF;
+
+}
+#hrServises{
+    width: 635px;
+height: 0px;
+margin: 0;
+
+border: 1px solid #8E8E8E;
+}
+}

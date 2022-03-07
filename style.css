@@ -1,0 +1,415 @@
+body {
+  margin: 0 ;
+  padding: 0 ;
+
+  background-color: #121212;
+}
+
+.landingPage {
+  width: 1920px;
+  height: 1080px;
+  background-image: url("./images/Group_53.png");
+
+}
+
+.landingPage__main {
+  width: 1920px;
+  height: 1080px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+header {
+  margin: 0 auto;
+  display: flex;
+  width: 1920px;
+  height: 124px;
+  justify-content: space-between;
+}
+
+section{
+  margin: 0 auto;
+}
+
+footer{
+  margin: 0 auto;
+}
+
+.headerLink {
+  text-decoration: none;
+  color: #fff;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 18px;
+  margin-right: 90px;
+}
+
+.headerForm {
+  display: flex;
+  width: 850px;
+  margin-top: 60px;
+  margin-right: 90px;
+}
+
+/* .logoDiv{
+    padding-right: 100px;
+} */
+
+.logo {
+  margin-top: 5px;
+  margin-left: 150px;
+  width: 133px;
+  height: 124px;
+}
+
+#h1Landing {
+  padding: 0;
+  font-family: "AkzidenzGroteskPro-extended";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 90px;
+  line-height: 120%;
+  margin: 0;
+}
+
+#spanLanding{
+  color: transparent;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 90px;
+            line-height: 110%;
+            letter-spacing: 0.02em;
+            text-transform: uppercase;
+            -webkit-text-stroke: 2px #9545E4;
+}
+/* .mainWordStyle{
+    color: transparent;
+    border: mediumturquoise; 
+} */
+
+.mainWord {
+  display: flex-start;
+  width: 1391px;
+  height: 216px;
+  left: 180px;
+  top: 432px;
+
+  font-family: Akzidenz-Grotesk Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 90px;
+  line-height: 120%;
+  /* or 108px */
+  margin-top: 300px;
+  margin-left: 250px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.youtubeLogo{
+  margin-left: 29px;
+
+}
+
+#h3Landing{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 110%;
+  /* or 15px */
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #8E8E8E;
+}
+
+.socials{
+  width: 134px;
+  height: 65px;
+  margin-left: 250px;
+  /* margin-top: 204px;
+  margin-left: 250px; */
+}
+
+.tagline{
+  /* width: 308px;
+  height: 68px; */
+   margin-left: 1150px;
+  
+}
+
+/* h2{
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 140%;
+  
+
+  text-align: right;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+} */
+
+.landingPageFooter{
+  display: flex;
+  margin-top: 200px;
+  width: 1920px;
+  height: 150px;
+}
+
+#h2Landing{
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 140%;
+  /* or 34px */
+
+  text-align: right;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+}
+
+/* * {
+  margin: 0;
+  padding: 0;
+} */
+
+/* h1, h2, h3, h4, p, li, ul, a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+} */
+
+.aboutUs {
+  width: 1560px;
+  height: 1080px;
+  background-color: #121212;
+  border: none;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.aboutUs__bothSides {
+  width: 1560px;
+  height: 680px;
+
+
+  display: flex;
+  justify-content: space-between;
+  padding-top: 170px;
+}
+
+.aboutUs__bothSides__leftSide {
+  width: 720px;
+  height: 720px;
+}
+
+.aboutUs__bothSides__leftSide__header {
+  width: 343px;
+  height: 88px;
+  left: 180px;
+  top: 1250px;
+  font-family: AkzidenzGroteskPro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 80px;
+  line-height: 110%;
+  /* identical to box height, or 88px */
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-bottom: 90px;
+}
+
+.aboutUs__bothSides__leftSide__info {
+
+  border-top: 1px solid #8e8e8e;
+  border-bottom: 1px solid #8e8e8e;
+  margin-bottom: 50px;
+}
+
+.aboutUs__bothSides__leftSide__info__text {
+  margin: 0;
+  padding: 40px 0;
+  width: 634px;
+  height: 170px;
+  left: 180px;
+  top: 1488px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 150%;
+  /* or 30px */
+  color: #FFFFFF;
+}
+
+.aboutUs__bothSides__leftSide__number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 620px;
+  height: 100px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.aboutUs__bothSides__leftSide__number__small {
+  width: 143px;
+  height: 17px;
+  left: 520px;
+  top: 1880px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 120%;
+  /* identical to box height, or 17px */
+  letter-spacing: 0.06em;
+  color: #8E8E8E;
+}
+.avtoprod{
+font-family: "AkzidenzGroteskPro-extended";
+margin: 0;
+font-style: normal;
+font-weight: 500;
+font-size: 60px;
+line-height: 110%;
+/* identical to box height, or 66px */
+
+
+color: #FFFFFF;
+
+}
+.mln{
+  display: flex;
+}
+
+
+.avtoprod2{
+  font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 120%;
+/* identical to box height, or 17px */
+
+letter-spacing: 0.06em;
+
+color: #8E8E8E;
+
+}
+.aboutUs__bothSides__leftSide__number__big {
+  width: 280px;
+  height: 66px;
+  left: 520px;
+  top: 1798px;
+  font-family: Akzidenz-Grotesk Pro;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 110%;
+  /* identical to box height, or 66px */
+  color: #FFFFFF;
+}
+
+.aboutUs__bothSides__rightSide {
+  width: 720px;
+  height: 720px;
+}
+
+@media screen and (max-width: 1440px){
+.aboutUs__bothSides__leftSide__header{
+  font-family: Akzidenz-Grotesk Pro;
+font-style: normal;
+font-weight: 500;
+font-size: 56px;
+line-height: 110%;
+/* identical to box height, or 62px */
+margin-top: 0;
+margin-bottom: 60px;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+font-family: AkzidenzGroteskPro-extended;
+color: #FFFFFF;
+}
+
+.o__nas{
+  height: 510px;
+  width: 540px;
+}
+.aboutUs__bothSides__leftSide__info__text{
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  /* or 24px */
+  width: 417px;
+height: 164px;
+  
+  color: #FFFFFF;
+}
+.aboutUs__bothSides__leftSide__number{
+  width: 445px;
+height: 74px;
+}
+.avtoprod{
+  font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 110%;
+/* identical to box height, or 44px */
+
+
+
+color: #FFFFFF;
+}
+.avtoprod2{
+  font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 120%;
+/* or 14px */
+
+
+color: #8E8E8E;
+
+}
+.aboutUs__bothSides__leftSide{
+  width: 445px;
+height: 490px;
+padding-right: 125px;
+}
+.aboutUs__bothSides{
+  width: 1110px;
+  height: 680px;
+  padding-top: 100px;
+
+}
+.aboutUs{
+  width: 1110px;
+  height: 780px;
+
+}
+}
+

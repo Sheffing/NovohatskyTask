@@ -1,0 +1,99 @@
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.whyWe{
+    margin-top: 200px;
+    width: 1920px;
+    height: 900px;
+    background-color: #121212;;
+}
+
+.centerWe{
+    width: 1560px;
+    height: 900px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.left{
+    width: 570px;
+    height: 798px;
+}
+
+.right{
+    width: 840px;
+    height: 770px;
+    margin-left: 150px;
+}
+
+.dizel{
+    margin-top: 61px;
+    margin-left: 220px;
+}
+
+#whyWeH1{
+    font-family: AkzidenzGroteskPro-extended;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 110%;
+    /* identical to box height, or 66px */
+
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+#pointsHrTop{
+    margin-top: 90px;
+    border: 1px solid #8E8E8E;
+}
+
+#pointsH{
+    margin-left: 41px;
+
+    font-family:  AkzidenzGroteskPro-extended;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 110%;
+    /* or 26px */
+
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.pointsMain{
+    display: flex;
+}
+
+/* .pointsImg{
+    
+} */
+
+.points{
+    margin-top: 40px;
+}
+
+#pointsP{
+    margin-top: 24px;
+    margin-left: 79px;
+    padding: 0;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 140%;
+    /* or 28px */
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#pointsHr{
+    margin-top: 40px;
+    border: 1px solid #8E8E8E;
+}

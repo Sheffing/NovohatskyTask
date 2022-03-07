@@ -1,0 +1,181 @@
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.v__prodaje{
+    
+    width: 1920px;
+    background-color: #121212;
+    margin: 0 auto;
+    padding: 0 auto;
+    border: none;
+    list-style-type: none;  
+    text-decoration: none;
+
+}
+.v__prodage1{
+display: flex;
+}
+.v__prodage75{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 110%;
+    font-family: AkzidenzGroteskPro-extended;
+    color: #FFFFFF;
+margin-left: 180px;
+margin-top: 80px;
+
+}
+.v__prodage751{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 80px;
+    line-height: 110%;
+    font-family: AkzidenzGroteskPro-extended;
+    color: #FFFFFF;
+margin-left: 30px;
+margin-top: 80px;
+color: #9545E4;
+}
+
+.vse__avto{
+    color: #9545E4;
+    width: 160px;
+    height: 20px;
+    left: 0px;
+    top: 16px;
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 100%;
+    margin-top: 110px;
+    margin-left: 865px;
+}
+.strelka{
+    margin-top: 15px;
+}
+
+.card__avto{
+    display: flex;
+    background-color: #121212;
+   margin-left: 180px;
+}
+.card__avto66{
+    display: flex;
+    background-color: #121212;
+    margin-bottom: 232px;
+    margin-left: 180px;
+    
+}
+.card__avto1{
+    display: flex;
+}
+.card__avto2{
+    display: flex;
+}
+.card1{
+    width: 480px;
+    height: 568px;
+    border: 1px solid #8E8E8E;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+.card123{
+    width: 480px;
+    height: 568px;
+    border: 1px solid #8E8E8E;
+    
+    margin-top: 60px;
+}
+.rols{
+    font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 110%;
+
+font-family: Roboto;
+text-transform: uppercase;
+
+color: #FFFFFF;
+margin-left: 32px;
+margin-top: 30px;
+}
+
+.thirdPage{
+    font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 110%;
+
+font-family: Roboto;
+text-transform: uppercase;
+
+color: #FFFFFF;
+margin-left: 32px;
+margin-top: 30px;
+}
+
+.rols1{
+    font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 110%;
+
+font-family: Roboto;
+text-transform: uppercase;
+
+color: #8E8E8E;
+margin-left: 32px;
+margin-top: 12px;
+}
+.probegvod{
+    display: flex;
+    margin-top: 32px;
+    margin-left: 32px;
+}
+.probeg{
+    margin-top: 0;
+    font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 110%;
+color: #8E8E8E;
+
+}
+.km{
+    font-family: Roboto;
+    font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 110%;
+color: #FFFFFF;
+}
+.vod{
+    margin-left: 82px;
+}
+.vod2{
+    margin-left: 72px;
+}
+.pricee{
+
+
+font-size: 32px;
+
+font-family: Roboto;
+padding: 0;
+text-align: right;
+margin: 0;
+margin-right: 32px;
+margin-bottom: 32px;
+
+color: #FFFFFF;
+}
+body{
+    margin: 0 ;
+    padding: 0;
+}

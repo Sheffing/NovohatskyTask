@@ -1,0 +1,350 @@
+body
+{
+    background-color: #121212;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+header{
+    display: flex;
+    width: 1920px;
+    height: 138px;
+    background-color: #121212;
+    align-items: center;
+}
+
+.headerCenter{
+    display: flex;
+    justify-content: space-between;
+    width: 1560px;
+    margin: 0 auto;
+}
+
+.logosDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+}
+
+.logo{
+    width: 90px;
+    height: 90px;
+}
+
+.chestLogo{
+    width: 222px;
+    height: 34px;
+}
+
+.headerList{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 775px;
+}
+
+.headerLink{
+    text-decoration: none;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 110%;
+    /* identical to box height, or 20px */
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.bolshoidiv{
+    margin-bottom: 150px;
+    width: 1560px;
+    margin-top: 100px;
+    margin-left: 180px;
+    display: flex;
+    color: white;
+}
+.godprobeg
+{
+    display: flex;
+}
+.opisanie{
+    margin-left: 120px;
+}
+.porsh{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-style: normal;
+    font-family: AkzidenzGroteskPro-extended;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 120%;
+
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.vlad__porsh
+{
+margin-left: 120px;
+}
+.probeg__porsh{
+margin-left: 120px;
+}
+.probvladgod{
+    margin: 0;
+    font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 110%;
+/* or 13px */
+
+text-transform: uppercase;
+
+color: #8E8E8E;
+
+}
+.probvladgod1{
+    margin-bottom: 40px;
+    margin-top: 10px;
+    font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 110%;
+/* or 26px */
+
+
+color: #FFFFFF;
+
+}
+.motor{
+    margin: 0;
+    font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 110%;
+/* or 13px */
+
+text-transform: uppercase;
+
+color: #8E8E8E;
+}
+.motor1{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 110%;
+/* or 26px */
+
+
+color: #FFFFFF;
+
+}
+.motor4{
+    margin-top: 0px;
+    font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 110%;
+/* or 13px */
+
+text-transform: uppercase;
+
+color: #8E8E8E;
+
+}
+.motor2{
+    margin-top: 10px;
+    font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 110%;
+/* or 26px */
+
+
+color: #FFFFFF;
+margin-bottom: 0;
+}
+.motor3{
+    margin-top: 60px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 110%;
+    /* or 13px */
+
+    text-transform: uppercase;
+
+    color: #8E8E8E;
+
+}
+.priceporsh{
+    margin-top: 10px;
+    font-style: normal;
+    font-family: "AkzidenzGroteskPro-extended";
+font-weight: 500;
+font-size: 60px;
+line-height: 110%;
+/* identical to box height, or 66px */
+margin-bottom: 0;
+
+color: #FFFFFF;
+}
+.kompl{
+    width: 610px;
+    height: 182px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+/* or 26px */
+
+
+color: #FFFFFF;
+}
+.godmotkom{
+    width: 720px;
+    border-top: 1px solid #8E8E8E;
+    border-bottom: 1px solid #8E8E8E;
+padding-top: 50px;
+padding-bottom: 50px;
+    font-family: "AkzidenzGroteskPro-extended";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 110%;
+    /* or 26px */
+
+
+    color: #FFFFFF;
+}
+.stoimo{
+    margin-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #8E8E8E;
+
+}
+
+
+.footerPage{
+    
+    width: 1920px;
+    height: 530px;
+    /* margin-top: 10px; */
+    background-color: #121212;
+}
+
+footer{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1560px;
+    height: 530px;
+    padding-top: 70px;
+    border-top: 2px solid #FFFFFF;;
+} 
+
+.footerDiv2{
+    display: flex;
+    flex-direction: column;
+}
+
+.footerList{
+    text-decoration: none;
+    font-family: AkzidenzGroteskPro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 120%;
+    margin-bottom: 10px;
+    /* identical to box height, or 24px */
+
+
+    color: #8E8E8E;
+}
+
+#footerH{
+    
+    font-family: AkzidenzGroteskPro;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    /* identical to box height, or 24px */
+
+
+    color: #FFFFFF;
+}
+
+#numberFooter{
+    font-family: AkzidenzGroteskPro-extended;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+    /* identical to box height, or 29px */
+    color: #FFFFFF;
+}
+
+#footerP{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 110%;
+    /* or 15px */
+
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: #8E8E8E;
+}
+
+#footerHr{
+    
+    width: 1560px;
+    height: 0px;
+    border: 2px solid #FFFFFF;
+}
+
+.footerDiv2{
+    display: flex;
+    flex-direction: column;
+    margin-right: 100px;
+}
+
+/* h1{
+    margin: 0;
+    padding: 0;
+} */
+
+.footerDiv3{
+    display: flex;
+    flex-direction: column;
+    margin-right: 200px;
+}
+
+.footerLinks{
+    display: flex;
+    flex-direction: column;
+}
+
+.footerDivison{
+    display: flex;
+}
+
+.footerYoutube{
+    margin-left: 10px;
+}

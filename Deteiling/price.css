@@ -1,0 +1,195 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+}
+
+.centerAuto {
+  width: 1570px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+
+.price__header {
+  color: #FFFFFF;
+  margin: 100px 0 90px 0;
+  width: 540px;
+  height: 66px;
+  font-family: AkzidenzGroteskPro-extended;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 110%;
+  /* identical to box height, or 66px */
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.price__list {
+  width: 1568px;
+  height: 1284px;
+  border-top: 1px solid rgba(142, 142, 142, 0.5);
+  border-left: 1px solid rgba(142, 142, 142, 0.5);
+  border-right: 1px solid rgba(142, 142, 142, 0.5);
+  border-bottom: 1px solid rgba(142, 142, 142, 0.5);
+}
+
+.price__list__first {
+  width: 1568px;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.price__list__first__long {
+  border-bottom: 1px solid rgba(142, 142, 142, 0.5);
+  width: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.price__list__first__long__allText {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 20px;
+}
+
+.price__list__first__long__last {
+  width: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: none;
+}
+
+.price__list__first__long__text {
+  margin-left: 40px;
+  color: #FFFFFF;
+  height: 20px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 110%;
+  /* identical to box height, or 20px */
+  color: #FFFFFF;
+}
+
+.price__list__first__long__text__min {
+  font-size: 14px;
+  color: #8E8E8E;
+}
+
+.price__list__first__middle {
+  width: 965px;
+  border-bottom: 1px solid rgba(142, 142, 142, 0.5);
+  border-left: 1px solid rgba(142, 142, 142, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.price__list__first__middle__last {
+  width: 965px;
+  border-left: 1px solid rgba(142, 142, 142, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-bottom: none;
+}
+
+.price__list__first__middle__text {
+  height: 22px;
+  font-family: AkzidenzGroteskPro-extended;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 110%;
+  /* identical to box height, or 22px */
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.price__list__first__short {
+  width: 192px;
+  border-bottom: 1px solid rgba(142, 142, 142, 0.5);
+  border-left: 1px solid rgba(142, 142, 142, 0.5);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.price__list__first__short__text {
+  height: 22px;
+  font-family: AkzidenzGroteskPro-extended;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 110%;
+  /* identical to box height, or 22px */
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.price__list__second {
+  width: 1568px;
+  height: 80px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-bottom: 1px solid rgba(142, 142, 142, 0.5);
+}
+
+.price__list__second__text {
+  color: #FFFFFF;
+  height: 20px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 110%;
+  /* identical to box height, or 20px */
+  color: #FFFFFF;
+}
+/*# sourceMappingURL=price.css.map */

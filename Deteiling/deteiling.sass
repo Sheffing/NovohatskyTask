@@ -1,0 +1,107 @@
+*
+    margin: 0
+    padding: 0
+
+h1, h2, h3, a, p, li, ul
+    text-decoration: none
+    list-style: none
+
+$black: #121212
+$grey: #8e8e8e
+
+.deteiling
+    padding-top: 100px
+    height: 1188px
+    width: 1920px
+    background-color: $black
+    margin: 0 auto
+    &__main
+        width: 1560px
+        margin: 0 auto
+        &__header
+            width: 654px
+            height: 88px
+
+            font-family: Akzidenz-Grotesk Pro
+            font-style: normal
+            font-weight: 500
+            font-size: 80px
+            line-height: 110%
+            /* identical to box height, or 88px */
+
+            letter-spacing: 0.06em
+            text-transform: uppercase
+
+            color: #FFFFFF
+            padding-bottom: 90px
+        &__car
+            margin-bottom: 60px
+        &__logo
+            position: absolute
+            width: 278px
+            height: 286px
+            left: 1403px
+            top: 135px
+        &__menu
+            margin-bottom: 100px
+            height: 500px
+            border: 1px solid $grey
+            &__upstairs
+                border-bottom: 1px solid $grey
+                height: 250px
+                display: flex
+            &__downstairs
+                border-bottom: 1px solid $grey
+                height: 250px
+                display: flex
+            &__word
+                border-right: 1px solid $grey
+                width: 520px
+                height: 250px
+                display: flex
+                align-items: center
+                justify-content: center
+                &__text
+                    width: 422px
+
+                    font-family: Akzidenz-Grotesk Pro
+                    font-style: normal
+                    font-weight: 500
+                    font-size: 32px
+                    line-height: 110%
+                    /* identical to box height, or 35px */
+
+                    text-align: center
+                    letter-spacing: 0.06em
+                    text-transform: uppercase
+
+                    color: #FFFFFF
+        &__banner
+            width: 100%
+            background: #131313 url("../images/unsplash_dlJelFmdpOc.png") no-repeat
+            background-size: cover
+            object-fit: cover
+            background-position: center
+            height: 350px
+            display: flex
+            justify-content: end
+            align-items: start
+        &__label
+            display: flex
+            align-items: center
+            margin-right: 100px
+            transform: translateY(-110px)
+            &__logo
+                background-color: #121212
+                padding: 32px 27px
+                border-radius: 500px
+            &__text
+                position: absolute
+                margin-left: -30px
+                animation: label-animate 20s linear infinite
+
+@keyframes label-animate
+    from
+        transform: rotate(0)
+    to
+        transform: rotate(360deg)

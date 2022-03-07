@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, a, p, li, ul {
+  text-decoration: none;
+  list-style: none;
+}
+
+.deteiling {
+  padding-top: 100px;
+  height: 1188px;
+  width: 1920px;
+  background-color: #121212;
+  margin: 0 auto;
+}
+
+.deteiling__main {
+  width: 1560px;
+  margin: 0 auto;
+}
+
+.deteiling__main__header {
+  width: 654px;
+  height: 88px;
+  font-family: AkzidenzGroteskPro-extended;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 80px;
+  line-height: 110%;
+  /* identical to box height, or 88px */
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding-bottom: 90px;
+}
+
+.deteiling__main__car {
+  margin-bottom: 60px;
+}
+
+.deteiling__main__logo {
+  position: absolute;
+  width: 278px;
+  height: 286px;
+  left: 1403px;
+  top: 135px;
+}
+
+.deteiling__main__menu {
+  margin-bottom: 100px;
+  height: 500px;
+  border: 1px solid #8e8e8e;
+}
+
+.deteiling__main__menu__upstairs {
+  border-bottom: 1px solid #8e8e8e;
+  height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.deteiling__main__menu__downstairs {
+  border-bottom: 1px solid #8e8e8e;
+  height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.deteiling__main__menu__word {
+  border-right: 1px solid #8e8e8e;
+  width: 520px;
+  height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.deteiling__main__menu__word__text {
+  width: 422px;
+  font-family: AkzidenzGroteskPro-extended;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 110%;
+  /* identical to box height, or 35px */
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.deteiling__main__banner {
+  margin-bottom: 60px;
+  width: 100%;
+  background: #131313 url("images/unsplash_dlJelFmdpOc.png") no-repeat;
+  background-size: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
+  background-position: center;
+  height: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
+
+.deteiling__main__label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 100px;
+  -webkit-transform: translateY(-110px);
+          transform: translateY(-110px);
+}
+
+.deteiling__main__label__logo {
+  background-color: #121212;
+  padding: 32px 27px;
+  border-radius: 500px;
+}
+
+.deteiling__main__label__text {
+  position: absolute;
+  margin-left: -30px;
+  -webkit-animation: label-animate 20s linear infinite;
+          animation: label-animate 20s linear infinite;
+}
+
+@-webkit-keyframes label-animate {
+  from {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes label-animate {
+  from {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+/*# sourceMappingURL=deteiling.css.map */
